@@ -106,7 +106,7 @@ export default {
   },
 
   render(h) {
-    if (!this.$$_containerVNode) {
+    if (!this.$_containerVNode) {
       this.$_containerVNode = h("div", {
         id: this.container,
         ref: "container"
